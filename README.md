@@ -1,4 +1,4 @@
-# ImageGallery_Projext
+# ImageGallery_Project
 Ek simple aur interactive Image Gallery project jahan users images ko browse aur view kar sakte hain.
 
 ## screenshot
