@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Photo Gallery Project</h1>
+        <p>Created for CodeAlpha Internship</p>
+    </div>
+
+    <div class="gallery-warpper">
+        <div class="gallery-item"><img src="https://picsum.photos/500/350?random=1" alt="Pic 1" onclick="showPopup(0)"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/500/350?random=2" alt="Pic 2" onclick="showPopup(1)"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/500/350?random=3" alt="Pic 3" onclick="showPopup(2)"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/500/350?random=4" alt="Pic 4" onclick="showPopup(3)"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/500/350?random=5" alt="Pic 5" onclick="showPopup(4)"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/500/350?random=6" alt="Pic 6" onclick="showPopup(5)"></div>
+    </div>
+
+    <div id="image-viewer" class="popup" style="display:none;">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        
+        <div class="popup-box">
+            <button class="arrow left-arrow" onclick="goPrev()">&lt;</button>
+            <img id="popup-img" src="" alt="Large View">
+            <button class="arrow right-arrow" onclick="goNext()">&gt;</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
