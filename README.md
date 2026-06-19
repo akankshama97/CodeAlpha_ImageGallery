@@ -1,4 +1,4 @@
-# CodeAlpha_ImageGallery
+# ImageGallery_Projext
 Ek simple aur interactive Image Gallery project jahan users images ko browse aur view kar sakte hain.
 
 ## screenshot
